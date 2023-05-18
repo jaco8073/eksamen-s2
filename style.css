@@ -76,10 +76,41 @@ H3 > = Arquitecta Std | Book */
 /*Kundeklub promovering på forside start*/
 .promovering {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.klubpromo {
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+.tilmeld {
+    color: #FFFFFF;
+    background-color: #000;
+    width: 18rem;
+    padding: 12px;
+}
+/*Kundeklub promovering på forside slut*/
+
+/*Carousel start*/
+.bagved {
+    background-color: #A2BDBD;
+    width: 100%;
+    height: 50%;
+    margin-top: 2rem;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.klubpromo{
+.billederne {
+    width: 100px;
+    height: 100px;
 }
-/*Kundeklub promovering på forside slut*/
+
+/* Carousel slut*/
