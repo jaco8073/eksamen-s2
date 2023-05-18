@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #D4DBE0       ;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.introduktion{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
