@@ -7,8 +7,13 @@ Baggrund = #FFFFFF
 Login & tilmeld baggrund = #D4DBE0
 Dropdown baggrund = #F6F6F6
 
-
-
 TYPOGRAFI
 H1 - H2 = Miller Headline | Regular
 H3 > = Arquitecta Std | Book */
+
+#menubar {
+    background-color: aqua;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+}
