@@ -109,9 +109,28 @@ H3 > = Arquitecta Std | Book */
 }
 
 .billederne {
-    width: 300px;
-    height: 300px;
-    margin: 30px;
-}
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+    }
 
 /* Carousel slut*/
+
+
+/* Profil underside start*/
+
+/*Tekst start*/
+.txtstyr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.headline {
+    display: flex;
+}
+
+.pftxt {
+
+}
+/*Tekst slut*/
