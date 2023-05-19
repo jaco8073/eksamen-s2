@@ -121,16 +121,43 @@ H3 > = Arquitecta Std | Book */
 
 /*Tekst start*/
 .txtstyr{
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
+    margin: auto;
+    width: 95%;
+    padding: 10px;
 }
 
 .headline {
-    display: flex;
+    font-weight: lighter;
+    margin-bottom: 10px;
 }
 
 .pftxt {
-
+    font-size: 14px;
 }
 /*Tekst slut*/
+/*Profilundersider start*/
+
+.pfdele {
+    display: flex;
+    flex-direction: column;
+}
+
+.pfbox {
+    height: 65px;
+
+}
+
+.boxtxt {
+    text-align: left;
+    font-weight: lighter;
+}
+
+.indholdbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.indholdbox > i {
+    
+}
+/*Profilundersider slut*/
