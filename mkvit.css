@@ -1,0 +1,173 @@
+/* Mine kvitteringer underside start*/
+
+/*Tekst start*/
+.txtstyr{
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
+
+.headline {
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.pftxt {
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+/*Tekst slut*/
+/*Mine kvitteringer underside start*/
+
+.mkvitdele {
+    display: flex;
+    flex-direction: column;
+}
+
+.mkvitbox {
+    height: 100px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mkvitboxtxt {
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.mkvitpris {
+    justify-content: space-between;
+    margin-right: 13px;
+}
+
+.mkvitdato {
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: -5px;
+    margin-bottom: 8px;
+}
+
+.antalvarer {
+    justify-content: space-between;
+    margin-left: 15px;
+    color: #99A1A7;
+}
+
+.indholdmkvitbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.indholdmkvitbox > i{
+    margin-right: 15px;
+}
+
+.reco {
+    font-weight: lighter;
+    margin-top: 3rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.bund {
+    height: 560px;
+}
+
+.mkvitcheckmark {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+/*Mine kvitteringer underside slut*/
+
+/*Udvalgt kvittering underside starter her*/
+
+.udvalgtkvittering {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+.kvitteringContainer {
+    height: 1000px auto;
+    width: 310px;
+  }
+  
+.kvitteringstyle {
+    border-style: solid;
+    border-color: #383838;
+    background-color: #F6F6F6;
+    padding: 10px 10px 10px 10px;
+  }
+
+.headlinedigitalkvittering {
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 60px;
+  }
+
+  /*Tekst på kvittering*/
+
+.ukvitboxtxt {
+    font-weight: lighter;
+    justify-content: space-between;
+}
+
+.ukvitandet {
+    margin-bottom: 5px;
+}
+
+.ukvitinfo {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.ukvitadresse {
+    margin-bottom: 5px;
+}
+
+.ukvitadressebund {
+    margin-bottom: 30px;
+}
+
+.indholdukvitbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.ordrenummer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+  
+/*Stregkode*/
+
+.stregkodeContainer {
+    height: 100px;
+    border-style: solid;
+    border-top-style: none;
+    border-color: #383838;
+    background-color: #F6F6F6;
+    padding: 10px 10px 10px 10px;
+  }
+
+.stregkode {
+    font-family: 'Libre Barcode 128', cursive;
+    padding-top: 20px;
+    font-size: 54px;
+    text-align: center;
+  }
+
+/*Udvalgt kvitteringing underside slutter her*/

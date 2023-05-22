@@ -29,6 +29,8 @@ H3 > = Arquitecta Std | Book */
     overflow-x: auto;
     width: 100%;
     height: 10%;
+    border: #383838;
+    border-style: solid;
 }
 
 .punkt {
@@ -91,27 +93,45 @@ H3 > = Arquitecta Std | Book */
     background-color: #000;
     width: 18rem;
     padding: 12px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.tilmeld:hover {
+    background-color: #FFFFFF;
+    color: #000;
 }
 /*Kundeklub promovering på forside slut*/
 
 /*Carousel start*/
-.bagved {
+.carousel {
     background-color: #A2BDBD;
     width: 100%;
-    height: 50%;
+    height: 400px;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
 }
 
-.carousel {
+.hvidhest {
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.hest {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .billederne {
         width: 300px;
         height: 300px;
-        margin: 30px;
     }
 
 /* Carousel slut*/
@@ -133,6 +153,7 @@ H3 > = Arquitecta Std | Book */
 
 .pftxt {
     font-size: 14px;
+    margin-bottom: 2rem;
 }
 /*Tekst slut*/
 /*Profilundersider start*/
@@ -150,14 +171,104 @@ H3 > = Arquitecta Std | Book */
 .boxtxt {
     text-align: left;
     font-weight: lighter;
+    margin-left: 15px;
 }
 
 .indholdbox{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.indholdbox > i {
-    
+.indholdbox > i{
+    margin-right: 15px;
 }
+
+
+.reco {
+    font-weight: lighter;
+    margin-top: 3rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.bund {
+    height: 560px;
+}
+
 /*Profilundersider slut*/
+
+/*Fordeleunderside start*/
+
+.bfarve {
+    background-color: #99A1A7;
+    width: 100%;
+    height: 300px;
+}
+
+.h3txt {
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+li {
+    padding: 8px;
+}
+
+.same {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.datoskrift {
+    color: #99A1A7;
+    font-size: 14px;
+    margin-left: 2px;
+
+}
+
+.sep {
+    margin-bottom: 20px;
+}
+
+.skriftyes {
+    font-size: 14px;
+}
+
+.knapstyr {
+    margin-top: 20px;
+}
+
+.sidst {
+    height: 300px;
+}
+
+.prutskid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.fordele-liste {
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 620px) {
+    .prutskid {
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .prutskid {
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+    }
+}
+/*Fordeleunderside slut*/
