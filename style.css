@@ -171,6 +171,7 @@ H3 > = Arquitecta Std | Book */
 .boxtxt {
     text-align: left;
     font-weight: lighter;
+    margin-left: 15px;
 }
 
 .indholdbox{
@@ -197,3 +198,77 @@ H3 > = Arquitecta Std | Book */
 }
 
 /*Profilundersider slut*/
+
+/*Fordeleunderside start*/
+
+.bfarve {
+    background-color: #99A1A7;
+    width: 100%;
+    height: 300px;
+}
+
+.h3txt {
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+li {
+    padding: 8px;
+}
+
+.same {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.datoskrift {
+    color: #99A1A7;
+    font-size: 14px;
+    margin-left: 2px;
+
+}
+
+.sep {
+    margin-bottom: 20px;
+}
+
+.skriftyes {
+    font-size: 14px;
+}
+
+.knapstyr {
+    margin-top: 20px;
+}
+
+.sidst {
+    height: 300px;
+}
+
+.prutskid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.fordele-liste {
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 620px) {
+    .prutskid {
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .prutskid {
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+    }
+}
+/*Fordeleunderside slut*/
