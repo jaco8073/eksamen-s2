@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+<head>
+    <meta charset="urf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forside</title>
+    <link rel="stylesheet" href="tilmeldning.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="billeder/ikoner/logo.png" alt="NEYE overskud gør en forskel" width="156px">     
+        </div>
+    </header>
+    <main>
+        <div class="oplysninger-container">
+            <div class="kolonne-1">
+              <label for="fornavn">Fornavn*:</label>
+              <input type="text" id="fornavn" name="fornavn" required>
+            </div>
+            <div class="kolonne-2">
+              <label for="efternavn">Efternavn*:</label>
+              <input type="text" id="efternavn" name="efternavn" required>
+            </div>
+        </div>
+        <div class="oplysninger-container">
+            <div class="kolonne-1">
+              <label for="postnummer">Postnummer:</label>
+              <input type="text" id="postnummer" name="postnummer" required>
+            </div>
+            <div class="kolonne-2">
+              <label for="mobil">Mobil*:</label>
+              <input type="text" id="mobil" name="mobil" required>
+            </div>
+        </div>
+        <div class="oplysninger-container">
+            <div class="kolonne-1">
+              <label for="email">E-mail*:</label>
+              <input type="text" id="email" name="email" required>
+            </div>
+            <div class="kolonne-2">
+                <label for="fødselsdag">Fødselsdag:</label>
+                <div class="kolonne-fødselsdag">
+                    <select id="fødselsdag" name="fødselsdag" required>
+                        <option value="dato">DD</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select id="fødselsmåned" name="fødselsmåned" required>
+                        <option value="måned">MM</option>
+                        <option value="1">Januar</option>
+                        <option value="2">Februar</option>
+                        <option value="3">Marts</option>
+                    </select>
+                    <select id="fødselsår" name="fødselsår" required>
+                        <option value="år">YYYY</option>
+                        <option value="1">2000</option>
+                        <option value="2">2001</option>
+                        <option value="3">2002</option>
+                    </select>
+                </div> 
+            </div>
+        </div>
+        <div class="oplysninger-container">
+            <div class="kolonne-2">
+                <div class="kolonne-køn">
+                    <select id="køn" name="køn" required>
+                        <option value="køn">Vælg køn (valgfri)</option>
+                        <option value="mand">Mand</option>
+                        <option value="kvinde">Kvinde</option>
+                        <option value="andet">Andet</option>
+                    </select>
+                </div> 
+            </div>
+            <div class="kolonne-2">
+                <div class="kolonne-køn">
+                    <select id="køn" name="køn" required>
+                        <option value="køn">Vælg favorit butik (valgfri)</option>
+                        <option value="odense">Odense</option>
+                        <option value="horsens">Horsens</option>
+                        <option value="københavn">København</option>
+                    </select>
+                </div> 
+            </div>
+        </div>
+        <div class="oplysninger-container">
+            <div class="kolonne-1">
+                <label for="adgangskode">Vælg adgangskode <p>(bestående af min. 8 karakter)*</p></label>
+                <input type="text" id="adgangskode" name="adgangskode" required>
+            </div>            
+            <div class="kolonne-2">
+                <label for="gentagadgangskode">Gentag adgangskode</label>
+                <input type="text" id="adgangskode" name="adgangskode" required>
+            </div>
+        </div>
+        <div class="oplysninger-container">
+            <div class="kolonne-medlemsbetingelser">
+                <input type="checkbox" id="checkbox" name="checkbox" required>
+                <label for="medlemsbetingelser">Ja tak, jeg accepterer hermed medlemsbetingelserne for Klub NEYE og vil gerne modtage e-mails med markedsføring fra NEYE om 
+                tasker, rejseartikler og andet inden for NEYE’s produktsortiment, der 
+                til enhver tid sælges på neye.dk eller i NEYE’s butikker. Jeg kan altid 
+                tilbagetrække mit samtykke til at modtage markedsføring, det kan jeg 
+                gøre via afmeldingslinket i bunden af Klub NEYE mailen eller ved at 
+                logge ind på “Mit NEYE” på neye.dk og afmelde mig der. Du kan læse 
+                mere om Klub NEYE her. Når du tilmelder dig Klub NEYE behandler 
+                vi persondata for at kunne levere nyhedsbrevet til dig. Du kan læse 
+                NEYE’s Persondatapolitik her.
+                </label>
+            </div>
+        </div>
+        <div class="tilmeld-container">
+            <div class="tilmeld-kasse">TILMELD KUNDEKLUB</div>
+        </div>
+    </main>
+</body>
+</html>

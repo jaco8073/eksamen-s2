@@ -37,17 +37,24 @@
     margin-left: -110px;
 }
 
-.login-kasse {
+.sort-kasse, .grå-kasse {
     height: 50px;
     width: 287px;
-    border: 1px solid #707070;
-    background-color: #99A1A7;
+    border: 1px solid #707070;    
     text-align: center;
     padding: 15px;
     color: #FFFFFF;
 }
 
-.login-kasse:hover {
+.grå-kasse {
+    background-color: #99A1A7;
+}
+
+.sort-kasse {
+    background-color: #000000;
+}
+
+.grå-kasse:hover, .sort-kasse:hover {
     color: #383838;
     background-color: #FFFFFF;
     cursor: pointer;
@@ -67,33 +74,22 @@
     margin-left: -35px;
 }
 
-.tilmeld-kasse {
-    height: 50px;
-    width: 287px;
-    border: 1px solid #707070;
-    background-color: #000000;
-    text-align: center;
-    padding: 15px;
-    color: #FFFFFF;
-}
-
-.tilmeld-kasse:hover {
-    color: #383838;
-    background-color: #FFFFFF;
-    cursor: pointer;
-}
-
 .tekst-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
-.tekst-container h3{
+.fordele-overskrift {
     padding: 10px;
     width: 287px;
+    font-weight: 100;
+    font-size: 18px;
+}
 
+.fordele-overskrift2{
+    font-size: 15px;
 }
 
 .fordele-container {
@@ -130,9 +126,54 @@
     margin-top: 40px;
 }
 
+.knap-link {
+    text-decoration: none;
+}
+
 .login-kasse:hover {
     color: #383838;
     background-color: #FFFFFF;
     cursor: pointer;
 }
 
+@media screen and (min-width:750px) {
+    .introduktion {
+        font-size: 50px;
+    }
+    
+    .sort-kasse, .grå-kasse {
+        height: 70px;
+        width: 420px;
+        padding: 22px;
+        font-size: 23px;
+    }
+
+    .login-overtekst {
+        font-size: 30px;
+        margin-left: -130px;
+    }
+
+    .tilmeld-overtekst {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    .fordele-overskrift{
+        font-size: 30px;
+        margin-left: -150px;
+    }
+
+    .fordele-overskrift2{
+        font-size: 18px;
+        margin-left: -160px;
+    }
+
+    .fordele-container ul {
+        width: 420px;
+        font-size: 20px;
+    }
+
+    .fordele-container .checkmark {
+        font-size: 20px;
+    }
+}
