@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+  
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+  
+.mineoplysninger-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+  
+.række {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.række p {
+  font-size: 12px;
+}
+
+.række label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  flex-direction: row;
+}
+
+.række input{
+  width: 100%;
+  height: 35px;
+  border: 1px solid;
+}
+
+.række #mobil {
+  width: 90%;
+}
+  
+.rækkke-fødselsdag {
+  width: 288px;
+}
+  
+.række-fødselsdag select {
+  padding: 2px;
+  height: 35px;
+  border: 1px solid;
+  margin-right: 10px;
+}
+  
+.række-favbutik select { 
+  width: 100%;
+  height: 35px;
+  border: 1px solid;
+}
+  
+.gem-container {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding: 30px;
+  margin-top: 35px;
+}
+  
+.gem-kasse {
+  height: 40px;
+  width: 107px;
+  border: 1px solid #707070;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px;
+  color: #FFFFFF;
+}
+  
+.gem-kasse:hover {
+  color: #383838;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.adgangskode-link {
+  font-size: 18px;
+  color: #383838;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.mineoplysninger-tekst {
+  font-size: 30px;
+  padding: 25px;
+}
+
+@media screen and (min-width:750px) {
+  
+  .mineoplysninger-tekst {
+    font-size: 50px;
+  }
+
+  .række label{
+    font-size: 30px;
+  }
+
+  .række input{
+    height: 73px;
+    font-size: 20px;
+  }
+
+  .række-fødselsdag  {
+    width: 80%;
+  }
+
+  .række-fødselsdag select  {
+    font-size: 18px;
+    height: 70px;
+  }
+
+  .række-fødselsdag #fødselsdag, #fødselsmåned {
+    width: 20%;
+  }
+
+  .række-fødselsdag #fødselsår {
+    width: 40%;
+  }
+  
+  .række-favbutik select { 
+    height: 73px;
+    font-size: 16px;
+  }
+
+  .tilmeld-kasse {
+    height: 80px;
+    width: 220px;
+    padding: 20px;
+    font-size: 32px;
+  }
+
+  .række #mobil {
+    width: 75%;
+    font-size: 20px;
+  }
+
+  .adgangskode-link {
+    font-size: 32px;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+  
+  h1 {
+    font-size: 62px;
+  }
+
+  #mobil {
+    width: 25%;
+  }
+}
