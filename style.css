@@ -174,6 +174,11 @@ H3 > = Arquitecta Std | Book */
     margin-left: 15px;
 }
 
+.døda {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the text color from the parent element */
+}
+
 .indholdbox{
     display: flex;
     flex-direction: row;
@@ -201,10 +206,47 @@ H3 > = Arquitecta Std | Book */
 
 /*Fordeleunderside start*/
 
+.logofor{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.invis {
+    visibility: hidden;
+}
+
+.kryds {
+    align-items: right;
+    width: 20px;
+    height: 20px;
+}
+
 .bfarve {
     background-color: #99A1A7;
     width: 100%;
     height: 300px;
+}
+
+.headerstyr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.storheadline {
+    display: none;
+}
+
+.tekstlille {
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.stortekst {
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .h3txt {
@@ -226,7 +268,6 @@ li {
     color: #99A1A7;
     font-size: 14px;
     margin-left: 2px;
-
 }
 
 .sep {
@@ -241,11 +282,7 @@ li {
     margin-top: 20px;
 }
 
-.sidst {
-    height: 300px;
-}
-
-.prutskid {
+.benyt-styr {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,10 +291,29 @@ li {
 
 .fordele-liste {
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.fordeleknap {
+    color: #FFFFFF;
+    background-color: #99A1A7;
+    width: 18rem;
+    padding: 12px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    border-color: #99A1A7;
+}
+
+.fordeleknap:hover {
+    background-color: #FFFFFF;
+    color: #000;
+    border-color: #000;
 }
 
 @media only screen and (min-width: 620px) {
-    .prutskid {
+    .benyt-styr {
         flex-wrap: wrap;
         align-items: center;
         margin: 0;
@@ -265,10 +321,30 @@ li {
 }
 
 @media only screen and (min-width: 820px) {
-    .prutskid {
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 0;
+    .benyt-styr {
+        align-items: normal;
+        justify-content: normal;
     }
+
+    .alfadiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .stortekst {
+        margin: 0px;
+    }
+
+    .styralt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bfarve {
+        width: 400px;
+        margin-top: 10px;
+    }
+
 }
 /*Fordeleunderside slut*/
