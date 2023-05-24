@@ -2,7 +2,7 @@
   * {box-sizing: border-box;}
   .mySlides {display: none;}
  
- .billedeAmalie {
+ .slideshowbillede {
    height: 250px;
    margin-bottom: -8px;
    display: block;
@@ -11,12 +11,12 @@
    width: 90%;
  }
 
- .fader{
-    animation-name: fader;
+ .slider{
+    animation-name: slider;
     animation-duration: 1.5s;
  }
 
- @keyframes fader{
+ @keyframes slider{
     from{opacity: .4;}
     to{opacity: 1;}
  }
@@ -27,11 +27,11 @@
 
  .dot {
     text-align: center;
-    height: 15px;
-    width: 15px;
+    height: 12px;
+    width: 12px;
     margin: 0 2px;
     background-color:#D4DBE0;
-    border-radius: 50%;
+    border-radius: 100%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
@@ -39,3 +39,14 @@
   .active {
     background-color:#A2BDBD;
   }
+
+  @media only screen and (min-width: 820px) {
+    .slideshowbillede {
+        height: 370px;
+    }
+
+    .dot {
+        height: 14px;
+        width: 14px;
+  }
+}

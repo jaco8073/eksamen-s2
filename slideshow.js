@@ -1,23 +1,23 @@
-let galleriShow = 0;
-runGalleri();
+let slideShow = 0;
+runSlide();
 
-function runGalleri() {
+function runSlide() {
   let i;
-  let galleri = document.getElementsByClassName("billedeslide");
+  let slide = document.getElementsByClassName("slideshow");
   let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < galleri.length; i++) {
-    galleri[i].style.display = "none";  
+  for (i = 0; i < slide.length; i++) {
+    slide[i].style.display = "none";  
   }
-  galleriShow++;
-  if (galleriShow > galleri.length) {galleriShow = 1}    
+  slideShow++;
+  if (slideShow > slide.length) {slideShow = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  galleri[galleriShow-1].style.display = "block";  
-  dots[galleriShow-1].className += " active";
-  setTimeout(runGalleri, 4000); // skift ved 4 sek
+  slide[slideShow-1].style.display = "block";  
+  dots[slideShow-1].className += " active";
+  setTimeout(runSlide, 5000);
 }
 
-function skiftFarve(element, Farve) {
-  element.style.backgroundColor = Farve; 
+function farveSkift(element, Skift) {
+  element.style.backgroundColor = Skift; 
 }
