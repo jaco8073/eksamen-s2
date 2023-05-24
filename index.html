@@ -8,7 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NEYE</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="slideshow.css">
         <script src="carousel.js" defer></script>
+        <script src="slideshow.js" defer></script>
         <script src="https://kit.fontawesome.com/a6302b108c.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -43,8 +45,24 @@
         </header>
         <section>
             <div class="slideshow">
-                
+                <div class="billedeslide fader">
+                    <img class="billedeAmalie" src="billeder/galleri/dame.jpg" alt="billede af en dame med taske samt klubfordele">
+                </div>
+                <div class="billedeslide fader">
+                    <img class="billedeAmalie" src="billeder/galleri/dame2.jpg" alt="billede af dame med brun håndtaske">
+                </div>
+                <div class="billedeslide fader">
+                    <img class="billedeAmalie" src="billeder/galleri/dame3.jpg" alt="billede af 3 mennesker med rygsække samt klubfordele">
+                </div>       
             </div>
+            <br>
+        <div class="dots">
+            <span class="dot" onMouseOver="skiftFarve(this, '#bbb')" onMouseOut="skiftFarve(this, '#E4F1F0')"></span> 
+            <span class="dot" onMouseOver="skiftFarve(this, '#bbb')" onMouseOut="skiftFarve(this, '#E4F1F0')"></span> 
+            <span class="dot" onMouseOver="skiftFarve(this, '#bbb')" onMouseOut="skiftFarve(this, '#E4F1F0')"></span>
+        </div>
+        </section>
+        <section>
             <div class="promovering">
                 <p class="klubpromo">
                     Klub NEYE spar 20%
