@@ -348,3 +348,32 @@ li {
 
 }
 /*Fordeleunderside slut*/
+
+/*Ønskeliste start*/
+
+.bagf{
+    width: 40%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.liste-bag {
+    width: 80%;
+}
+
+.oestyr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 820px) {
+    .oestyr {
+        flex-wrap: nowrap;
+    }
+}
+
+/*Ønskeliste slut*/
