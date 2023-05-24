@@ -6,6 +6,7 @@
     <title>Tilmeldning</title>
     <link rel="stylesheet" href="tilmeldning.css">
     <link rel="stylesheet" href="forside.css">
+    <script src="tilmeldning.js" defer></script>
 </head>
 <body>
     <header>
@@ -66,11 +67,8 @@
         <div class="oplysninger-container">
             <div class="kolonne-2">
                 <div class="kolonne-køn">
-                    <select id="køn" name="køn" required>
-                        <option value="køn">Vælg køn (valgfri)</option>
-                        <option value="mand">Mand</option>
-                        <option value="kvinde">Kvinde</option>
-                        <option value="andet">Andet</option>
+                    <select id="kønSelect" name="køn" onchange="" required>
+                        <option id="kønOption"></option>
                     </select>
                 </div> 
             </div>
