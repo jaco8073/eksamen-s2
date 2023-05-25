@@ -75,6 +75,23 @@ H3 > = Arquitecta Std | Book */
 /*Slideshow start*/
 /*Slideshow slut*/
 
+/* bannershow start */ 
+#banner-container {
+    max-width: 100%;
+    position: relative;
+    background-color: #99A1A7;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.rullendetekst {
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+/* bannershow slut */ 
+
 /*Kundeklub promovering på forside start*/
 .promovering {
     display: flex;
