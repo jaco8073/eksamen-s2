@@ -21,6 +21,7 @@ H3 > = Arquitecta Std | Book */
 p {
     font-size: 14px;
 }
+
 h1 {
     font-weight: lighter;
 }
@@ -387,17 +388,47 @@ li {
 /*Fordeleunderside slut*/
 
 /*Ønskeliste start*/
+.container-box-1 {grid-area: a;}
+
+.container-box-2 {grid-area: b;}
+
+.container-box-3 {grid-area: c;}
+
+.container-box-4 {grid-area: d;}
+
+.container-box-4, .container-box-3, .container-box-2, .container-box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+} 
+
+.grid-styrer {
+    display: grid;
+    grid-template-areas: 'a b'
+    'c d';
+
+}
 
 .bagf{
-    width: 40%;
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
     margin: 25px;
 }
 
+.fjern {
+    top: 0;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
 .liste-bag {
     width: 80%;
+}
+
+.tekst {
+    display: flex;
 }
 
 .oestyr{
@@ -414,9 +445,30 @@ li {
     width: auto;
 }
 
-@media only screen and (min-width: 820px) {
-    .oestyr {
-        flex-wrap: nowrap;
+.side-length {
+    height: 850px;
+}
+
+@media only screen and (min-width: 900px) {
+    .grid-styrer {
+        display: grid;
+        grid-template-areas: 'a b c d';
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .liste-bag {
+        max-width: 240px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .fjern {
+        width: 10px;
+        height: 10px;
     }
 }
 
