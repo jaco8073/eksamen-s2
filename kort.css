@@ -14,6 +14,11 @@
     cursor: pointer;
 }
 
+.login-kasse a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .styre {
     display: flex;
     justify-content: center;
