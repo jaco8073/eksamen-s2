@@ -3,7 +3,7 @@
   .mySlides {display: none;}
  
  .slideshowbillede {
-   height: 250px;
+   height: 30%;
    margin-bottom: -8px;
    display: block;
    margin-left: auto;
@@ -42,7 +42,7 @@
 
   @media only screen and (min-width: 820px) {
     .slideshowbillede {
-        height: 370px;
+        height: 25%;
     }
 
     .dot {
