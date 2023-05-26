@@ -126,6 +126,7 @@ H3 > = Arquitecta Std | Book */
     width: 100%;
     height: 400px;
     margin-top: 2rem;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
