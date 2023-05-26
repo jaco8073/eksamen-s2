@@ -14,6 +14,29 @@
     cursor: pointer;
 }
 
+.grå-kasse {
+    background-color: #99A1A7;
+}
+
+.grå-kasse:hover, .sort-kasse:hover {
+    color: #383838;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.knap-link {
+    text-decoration: none;
+}
+
+.grå-kasse {
+    height: 50px;
+    width: 287px;
+    border: 1px solid #707070;    
+    text-align: center;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
 .styre {
     display: flex;
     justify-content: center;
