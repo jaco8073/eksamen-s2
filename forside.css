@@ -12,7 +12,7 @@
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin: 25px;
 }
 
 .introduktion {
