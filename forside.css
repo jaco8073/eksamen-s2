@@ -161,13 +161,6 @@
     .introduktion {
         font-size: 50px;
     }
-    
-    .sort-kasse, .grå-kasse {
-        height: 70px;
-        width: 420px;
-        padding: 22px;
-        font-size: 23px;
-    }
 
     .login-overtekst {
         font-size: 30px;
@@ -210,5 +203,12 @@
 @media screen and (min-width:1024px) {
     .forside-body {
         height: 1200px;
+    }
+    
+    .sort-kasse, .grå-kasse {
+        height: 70px;
+        width: 420px;
+        padding: 22px;
+        font-size: 23px;
     }
  }
