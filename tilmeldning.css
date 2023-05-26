@@ -4,18 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
+.tilmeldning-body {
   background-color: #D4DBE0;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  margin-top: 90px;
-  margin-bottom: 50px;
+  height: 1300px;
 }
 
 .oplysninger-container {
+  gap: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -122,5 +117,8 @@ input{
   .kolonne-medlemsbetingelser {
     width: 750px;
     align-items: center;
+  }
+  .tilmeldning-body{
+    height: 1080px;
   }
 }  

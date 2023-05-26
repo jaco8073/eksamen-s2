@@ -6,7 +6,7 @@
 
 .forside-body {
     background-color: #D4DBE0;
-    height: 1013px;
+    height: 1000px;
 }
 
 .logo {
@@ -89,6 +89,8 @@
 }
 
 .fordele-overskrift2{
+    padding: 10px;
+    width: 287px;
     font-size: 15px;
 }
 
@@ -155,6 +157,7 @@
 }
 
 @media screen and (min-width:750px) {
+
     .introduktion {
         font-size: 50px;
     }
@@ -178,12 +181,12 @@
 
     .fordele-overskrift{
         font-size: 30px;
-        margin-left: -150px;
+        width: 420px;
     }
 
     .fordele-overskrift2{
         font-size: 18px;
-        margin-left: -160px;
+        width: 420px;
     }
 
     .fordele-container ul {
@@ -204,3 +207,8 @@
         font-size: 50px;
     }
 }
+@media screen and (min-width:1024px) {
+    .forside-body {
+        height: 1200px;
+    }
+ }

@@ -4,13 +4,10 @@
   box-sizing: border-box;
 }
   
-.logo {
-  display: flex;
-  justify-content: center;
-  margin-top: 90px;
-  margin-bottom: 50px;
+.moplys-body{
+  height: 1100px;
 }
-  
+
 .mineoplysninger-container {
   display: flex;
   flex-direction: column;
@@ -96,18 +93,22 @@
   padding: 25px;
 }
 
-@media screen and (min-width:750px) {
+@media screen and (min-width:1024px) {
   
+  .moplys-body{
+    height: 1300px;
+  }
+
   .mineoplysninger-tekst {
     font-size: 50px;
   }
 
   .række label{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .række input{
-    height: 73px;
+    height: 60px;
     font-size: 20px;
   }
 
@@ -117,7 +118,7 @@
 
   .række-fødselsdag select  {
     font-size: 18px;
-    height: 70px;
+    height: 60px;
   }
 
   .række-fødselsdag #fødselsdag, #fødselsmåned {
@@ -129,7 +130,7 @@
   }
   
   .række-favbutik select { 
-    height: 73px;
+    height: 60px;
     font-size: 16px;
   }
 
@@ -146,7 +147,7 @@
   }
 
   .adgangskode-link {
-    font-size: 32px;
+    font-size: 25px;
   }
 
 }
@@ -154,7 +155,7 @@
 @media screen and (min-width:1024px) {
   
   h1 {
-    font-size: 62px;
+    font-size: 50px;
   }
 
   #mobil {

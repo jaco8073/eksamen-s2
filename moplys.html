@@ -5,14 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mine Oplysninger</title>
     <link rel="stylesheet" href="moplys.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forside.css">
 </head>
-<body>
+<body class="moplys-body">
     <header>
-        <div class="logo">
-            <img src="billeder/ikoner/logo.png" alt="NEYE overskud gør en forskel" width="156px">     
+        <div class="logofor">
+            <img src="billeder/1x/1x/1x/1x/fedkryds.png" class="invis" alt="Et kryds" width="20px">  
+            <img src="billeder/ikoner/logo.png" alt="NEYE overskud gør en forskel" width="156px"> 
+            <a href="profil.html"><img src="billeder/ikoner/fedkryds.png" class="kryds" alt="Et kryds" width="20px"></a>   
         </div>
-        <h1 class="mineoplysninger-tekst">Mine oplysninger</h1>
     </header>
+    <nav>
+        <div id="menubar">
+            <div class="punkt">
+                <a href="index.html">
+                <img src="billeder/ikoner/home.png" class="icon1" href="" alt="Icon af et hus">     
+                </a>
+            </div>
+            <div class="punkt">
+                <a href="#">
+                <img src="billeder/ikoner/dametasker-1.svg" class='icon2' href="" alt="icon af en håndtaske">
+                </a>
+            </div>
+            <div class="punkt">
+                <a href="profil.html">
+                <img src="billeder/ikoner/profil.svg" class='icon3' href="" alt="icon af en person">
+                </a>
+            </div>
+            <div class="punkt" href="#">
+                <a href="medlemskort.html">
+                <img src="billeder/ikoner/medlemskort2.png" class="icon4" alt="Icon af et idkort">
+                </a>
+            </div>
+        </div>
+    </nav>
     <main>
         <div class="mineoplysninger-container">
             <div class="række">
@@ -74,7 +101,9 @@
         <a class="adgangskode-link" href="#">Skift adgangskode</a>
         </div>
         <div class="gem-container">
+            <a class="knap-link" href="profil.html">
             <div class="gem-kasse">GEM</div>
+            </a>
         </div>
     </main>
 </body>
