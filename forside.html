@@ -1,54 +1,129 @@
 <!DOCTYPE html>
-<html lang="da" dir="ltr">
+<html lang="da">
     <head>
-        <meta charset="urf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Forside</title>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="NEYE, taske">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NEYE</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/slideshow.css">
         <link rel="stylesheet" href="css/forside.css">
+        <script src="carousel.js" defer></script>
+        <script src="slideshow.js" defer></script>
+        <script src="bannershow.js" defer></script>
+        <script src="https://kit.fontawesome.com/a6302b108c.js" crossorigin="anonymous"></script>
     </head>
-    <body class="forside-body">
+    <body>
+        <nav>
+            <div id="menubar">
+                <div class="punkt">
+                    <a href="forside.html">
+                    <img src="billeder/ikoner/home.png" class="icon1" href="" alt="Icon af et hus">     
+                    </a>
+                </div>
+                <div class="punkt">
+                    <a href="#">
+                    <img src="billeder/ikoner/dametasker-1.svg" class='icon2' href="" alt="icon af en håndtaske">
+                    </a>
+                </div>
+                <div class="punkt">
+                    <a href="profil.html">
+                    <img src="billeder/ikoner/profil-noactiv.png" class='icon3' href="" alt="icon af en person">
+                    </a>
+                </div>
+                <div class="punkt" href="#">
+                    <a href="medlemskort.html">
+                    <img src="billeder/ikoner/medlemskort2.png" class="icon4" alt="Icon af et idkort">
+                    </a>
+                </div>
+            </div>
+        </nav>
         <header>
-            <div class="logo">
-                <img src="billeder/ikoner/logo.png" alt="NEYE overskud gør en forskel" width="156px">     
-            </div>
-            <div class="introduktion">
-                <p>Velkommen til NEYE's <br>klub univers</p>
-            </div>
+            <!--bannershow start-->
+                <div id="banner-container">
+                    <p class="rullendetekst">Levering 1-2 hverdage</p>
+                    <p class="rullendetekst">Click & collect</p>
+                    <p class="rullendetekst">Fri fragt over 499 kr.</p>
+                </div>
+             <!--bannershow slut-->   
+                <div class="real-logo">
+                    <img src="billeder/ikoner/logo.png" alt="NEYE overskud gør en forskel" width="156px">     
+                </div>
         </header>
-        <main>
-            <div class="login-container">
-                <div class="login-overtekst">Er du allerede medlem?</div>
-                <a class="knap-link" href="#">
-                    <div class="grå-kasse">LOG IN</div>
-                </a>
+        <section>
+            <div>
+                <div class="slideshow slider">
+                    <img class="slideshowbillede" src="billeder/galleri/dame.jpg" alt="billede af en dame med taske samt klubfordele">
+                </div>
+                <div class="slideshow slider">
+                    <img class="slideshowbillede" src="billeder/galleri/dame2.jpg" alt="billede af dame med brun håndtaske">
+                </div>
+                <div class="slideshow slider">
+                    <img class="slideshowbillede" src="billeder/galleri/dame3.jpg" alt="billede af 3 mennesker med rygsække samt klubfordele">
+                </div>       
             </div>
-            <div class="tilmeld-container">
-                <div class="tilmeld-overtekst">Bliv en del af NEYE fællesskabet:</div>
+            <br>
+            <div class="dots">
+                <div class="dot" onMouseOver="farveSkift(this, '#bbb')" onMouseOut="farveSkift(this, '#E4F1F0')"></div> 
+                <div class="dot" onMouseOver="farveSkift(this, '#bbb')" onMouseOut="farveSkift(this, '#E4F1F0')"></div> 
+                <div class="dot" onMouseOver="farveSkift(this, '#bbb')" onMouseOut="farveSkift(this, '#E4F1F0')"></div>
+            </div>
+        </section>
+        <section>
+            <div class="promovering">
+                <p class="klubpromo">
+                    Klub NEYE spar 20%
+                </p>
+            </div>
+            <div class="promovering">
                 <a class="knap-link" href="tilmelding.html">
                     <div class="sort-kasse">TILMELD KUNDEKLUB</div>
                 </a>
             </div>
+        </section>
+        <section>
+            <div class="carousel">
+                <div class="hest">
+                    <div class="hvidhest">
+                        <div class="tasker">
+                            <img src="billeder/tasker/taske5.jpg" class="billederne" alt="stof taske">
+                        </div>
+                    </div>
+                </div>
+                <div class="hest">
+                    <div class="hvidhest">
+                        <div class="tasker">
+                            <img src="billeder/tasker/taske1.jpg" class="billederne" alt="sort læder taske">
+                        </div>
+                    </div>
+                </div>
+                <div class="hest">
+                    <div class="hvidhest">
+                        <div class="tasker">
+                            <img src="billeder/tasker/taske7.png" class="billederne" alt="skuldertaske">
+                        </div>
+                    </div>
+                </div>
+                <div class="hest">
+                    <div class="hvidhest">
+                        <div class="tasker">
+                            <img src="billeder/tasker/taske6.png" class="billederne" alt="stof taske">
+                        </div>
+                    </div>
+                </div>
+                <div class="hest">
+                    <div class="hvidhest">
+                        <div class="tasker">
+                            <img src="billeder/tasker/taske3.jpg" class="billederne" alt="gul taske">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
 
-            <div class="tekst-container">
-                <h3 class="fordele-overskrift">Fantastiske fordele:</h3>
-                <h3 class="fordele-overskrift2">Som Klub NEYE medlem får du:</h3>
-            </div>
-            <div class="fordele-container">
-                <ul>
-                  <li><span class="checkmark">&#10004;</span> Særlige Klub NEYE medlemstilbud</li>
-                  <li><span class="checkmark">&#10004;</span> 20% rabat på din fødselsdag</li>
-                  <li><span class="checkmark">&#10004;</span> Gemt boner fra butik på din profil (hvis købet registreres)</li>
-                  <li><span class="checkmark">&#10004;</span> Fri fragt allerede ved køb over 399 kr</li>
-                  <li><span class="checkmark">&#10004;</span> Nyhedsbrev med gode tilbud og inspirerende nyheder</li>
-                </ul>
-            </div>
-            <div class="udenlogin-container">
-                <a class="knap-link" href="medlem.html">
-                  <div class="grå-kasse">
-                    <div>BESØG APPEN UDEN LOG IN</div>
-                  </div>
-                </a>
-              </div>
-        </main>
+        </footer>
     </body>
 </html>
