@@ -5,11 +5,7 @@ Knapper = #000000
 Klub NEYE = #A2BDBD
 Baggrund = #FFFFFF
 Login & tilmeld baggrund = #D4DBE0
-Dropdown baggrund = #F6F6F6
-
-TYPOGRAFI
-H1 - H2 = Miller Headline | Regular
-H3 > = Arquitecta Std | Book */
+Dropdown baggrund = #F6F6F6 */
 * {
     margin: 0px;
     padding: 0px;
@@ -199,7 +195,14 @@ h3 {
 
 .pfbox {
     height: 65px;
+    border: solid ;
+    background-color: #F6F6F6;
+    padding-top: 10px;
+    margin-top: 0.4px;
+}
 
+.pfbox:hover {
+    background-color: #e7e7e7;
 }
 
 .boxtxt {
@@ -217,6 +220,8 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    font-weight: lighter;
 }
 
 .indholdbox > i{
