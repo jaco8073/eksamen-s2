@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tilmeldning</title>
     <link rel="stylesheet" href="css/tilmelding.css">
     <link rel="stylesheet" href="css/forside.css">
@@ -45,7 +45,7 @@
                 <label for="fødselsdag">Fødselsdag:</label>
                 <div class="kolonne-fødselsdag">
                     <select id="fødselsdag" name="fødselsdag" required>
-                        <option value="dato">DD</option>
+                        <option value="">DD</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -79,7 +79,7 @@
                         <option value="31">31</option>
                     </select>
                     <select id="fødselsmåned" name="fødselsmåned" required>
-                        <option value="måned">MM</option>
+                        <option value="">MM</option>
                         <option value="1">Januar</option>
                         <option value="2">Februar</option>
                         <option value="3">Marts</option>
@@ -94,7 +94,7 @@
                         <option value="12">December</option>
                     </select>
                     <select id="fødselsår" name="fødselsår" required>
-                        <option value="år">YYYY</option>
+                        <option value="">YYYY</option>
                         <option value="1">2000</option>
                         <option value="2">2001</option>
                         <option value="3">2002</option>
@@ -106,14 +106,14 @@
             <div class="kolonne-2">
                 <div class="kolonne-køn">
                     <select id="kønSelect" name="køn" onchange="" required>
-                        <option id="kønOption">Vælg køn (valgfri)</option>
+                        <option id="kønOption" value="" disabled selected hidden>Vælg køn (valgfri)</option>
                     </select>
                 </div> 
             </div>
             <div class="kolonne-2">
                 <div class="kolonne-køn">
                     <select id="by" name="by" required>
-                        <option value="by">Vælg favorit butik (valgfri)</option>
+                        <option value="">Vælg favorit butik (valgfri)</option>
                         <option value="horsens">NEYE HORSENS, SØNDERGADE</option>
                         <option value="københavn">NEYE KØBENHAVN, AMAGER CENTRET </option>
                         <option value="odense">NEYE ODENSE  , ROSENGÅRDCENTRET</option>
@@ -123,18 +123,18 @@
         </div>
         <div class="oplysninger-container">
             <div class="kolonne-1">
-                <label for="adgangskode">Vælg adgangskode <p>(bestående af min. 8 karakter)*</p></label>
+                <label for="adgangskode">Vælg adgangskode</label>
                 <input type="text" id="adgangskode" name="adgangskode" required>
             </div>            
             <div class="kolonne-2">
                 <label for="gentagadgangskode">Gentag adgangskode</label>
-                <input type="text" id="adgangskode" name="adgangskode" required>
+                <input type="text" id="gentagadgangskode" name="gentagadgangskode" required>
             </div>
         </div>
         <div class="oplysninger-container">
             <div class="kolonne-medlemsbetingelser">
                 <input type="checkbox" id="checkbox" name="checkbox" required>
-                <label for="medlemsbetingelser">Ja tak, jeg accepterer hermed medlemsbetingelserne for Klub NEYE og vil gerne modtage e-mails med markedsføring fra NEYE om 
+                <label>Ja tak, jeg accepterer hermed medlemsbetingelserne for Klub NEYE og vil gerne modtage e-mails med markedsføring fra NEYE om 
                 tasker, rejseartikler og andet inden for NEYE’s produktsortiment, der 
                 til enhver tid sælges på neye.dk eller i NEYE’s butikker. Jeg kan altid 
                 tilbagetrække mit samtykke til at modtage markedsføring, det kan jeg 
