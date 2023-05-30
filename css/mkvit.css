@@ -28,6 +28,13 @@
     height: 100px;
     margin-bottom: 15px;
     font-family: 'Times New Roman', Times, serif;
+    border: solid;
+    padding: 10px;
+    background-color: #F6F6F6;
+}
+
+.mkvitbox:hover {
+    background-color: #e7e7e7;
 }
 
 .mkvitboxtxt {
